@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head> </head>
+
+<body> 
+  <h2> Cart </h2>
+  <button onclick="addtoCart()"> Add to cart </button>
+  <button> +2 </button>
+  <button> +3 </button>
+  <button> Reset </button>
+  
+  <script> 
+    let quantity = 0; 
+    function addtoCart(){
+        quantity = 1;
+        console.log(quantity)
+    }
+
+    function add2(){
+        quantity += 2; 
+        console.log(quantity)
+    }
+
+    function add3(){
+        quantity += 3;
+        console.log(quantity)
+    }
+
+    function Reset(){
+        quantity = 0; 
+        console.log(quantity)
+    }
+
+  <section class="Projects">
+  <h2>My Projects</h2>
+
+  <div class="project-box">
+    <h3>Sanad AI</h3>
+    <p>End-to-end Document Recognition & AI Automation Platform.</p>
+  </div>
+
+  <div class="project-box">
+    <h3>MISO AI Marketing</h3>
+    <p>AI-powered marketing automation & campaign optimization.</p>
+  </div>
+
+  <div class="project-box">
+    <h3>Scrum Master Path</h3>
+    <p>Training plan for DevOps engineers transitioning into Scrum.</p>
+  </div>
+</section>
+
+  </script>
+</body>
+
+</html>

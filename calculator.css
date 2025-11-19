@@ -1,0 +1,44 @@
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    background-color: #fabdbd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#display {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: green;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 80px); /* makes 3–4 square blocks layout */
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
